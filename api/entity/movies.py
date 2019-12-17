@@ -10,6 +10,6 @@ class Movies:
         return self.movies_list
 
 class Movie:
-    def __init__(self, name, year):
+    def __init__(self, name, rating):
         self.name = name
-        self.year = year
+        self.rating = rating
